@@ -73,9 +73,11 @@ void SolveEquations()
 		std::string source;
 
 		std::string request[3]
-		{ { "Enter first equation" },
-		{ "\nEnter second equation" },
-		{ "\nEnter third equation" } };
+		{ 
+			{ "Enter first equation" },
+			{ "\nEnter second equation" },
+			{ "\nEnter third equation" } 
+		};
 
 		std::cout<<request[i]<<"\n";
 
